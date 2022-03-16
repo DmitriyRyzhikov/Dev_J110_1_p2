@@ -27,7 +27,7 @@ public class Main {
     for(Books book : booksArray) 
         Books.printAll(book);
     
-    System.out.println();
+    System.out.println(); 
     System.out.println("Исправляем ошибку в городе издательства БХВ"); 
     System.out.println();
     // Исправляем ошибку в городе издательства "БХВ"
