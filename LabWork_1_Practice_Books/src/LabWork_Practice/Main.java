@@ -58,7 +58,7 @@ public class Main {
     System.out.println();
     // Демонстрация работы метода getAuthorByIndex(int index)
     for(Books book : booksArray) {
-        System.out.println("Следующая книга: ");   
+        System.out.println("Следующая книга: "  + book.getBookName());   
         for(int i = 0; i < book.getAuthorsArray().length; i++) 
         System.out.println("С индексом " + i + " " + book.getAuthorByIndex(i));   
         }
