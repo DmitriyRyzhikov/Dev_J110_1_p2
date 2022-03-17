@@ -21,7 +21,7 @@ public class PublishingHouse {
     }
     public void setPublishingHouseName(String publishingHouseName) {
         if(publishingHouseName == null)
-           throw new IllegalArgumentException ("У издательство должно быть название.");
+           throw new IllegalArgumentException ("У издательства должно быть название.");
         this.publishingHouseName = publishingHouseName;
     }
     public void setPublishingHouseCity(String publishingHouseCity) {
