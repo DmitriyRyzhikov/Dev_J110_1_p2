@@ -22,40 +22,30 @@ public class Main {
     Books[] booksArray = new Books[] {book1, book2, book3, book4, book5};
    
     // Работает метод printAll, печатает массив booksArray
-        System.out.println("Работает метод printAll, печатает массив booksArray");
-        System.out.println();
+        System.out.println("Работает метод printAll, печатает массив booksArray.\n");
     for(Books book : booksArray) 
         Books.printAll(book);
     
-    System.out.println(); 
-    System.out.println("Исправляем ошибку в городе издательства БХВ"); 
-    System.out.println();
+    System.out.println("\nИсправляем ошибку в городе издательства БХВ\n"); 
     // Исправляем ошибку в городе издательства "БХВ"
     bHv.setPublishingHouseCity("Санкт-Петербург");
     
     // Работает метод printAll, еще раз печатаем массив booksArray с исправленным городом в издательстве БХВ
-    System.out.println("Работает метод printAll, печатает массив booksArray с исправленным городом Санкт-Петербург");
-    System.out.println();
+    System.out.println("Работает метод printAll, печатает массив booksArray с исправленным городом Санкт-Петербург\n");
     for(Books book : booksArray) 
         Books.printAll(book);
     
-    System.out.println();
-    System.out.println("Демонстрация работы метода print()");
-    System.out.println();
+    System.out.println("\nДемонстрация работы метода print\n");
     // Демонстрация работы метода print()
     for(Books book : booksArray) 
         book.print();
     
-    System.out.println();
-    System.out.println("Демонстрация работы метода getAuthorsQuantity()");
-    System.out.println();
+    System.out.println("\nДемонстрация работы метода getAuthorsQuantity\n");
     // Демонстрация работы метода getAuthorsQuantity()
     for(Books book : booksArray) 
         System.out.println(book.getAuthorsQuantity());
     
-    System.out.println();
-    System.out.println("Демонстрация работы метода getAuthorByIndex(int index)");
-    System.out.println();
+    System.out.println("\nДемонстрация работы метода getAuthorByIndex(int index)\n");
     // Демонстрация работы метода getAuthorByIndex(int index)
     for(Books book : booksArray) {
         System.out.println("Следующая книга: ");   
